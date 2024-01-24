@@ -5,8 +5,8 @@
 ### 1. Fork / Clone this repository
 
 ```bash
-git clone https://github.com/iterative/course-ds-base.git
-cd course-ds-base
+git clone https://github.com/Alashmony/dvc-course-base.git
+cd dvc-course-base
 ```
 
 
@@ -14,10 +14,26 @@ cd course-ds-base
 
 Create virtual environment named `dvc-venv` (you may use other name)
 ```bash
-python3 -m venv dvc-venv
+python -m venv dvc-venv
+```
+
+Activate the new Virtual Env on Mac
+```
 echo "export PYTHONPATH=$PWD" >> dvc-venv/bin/activate
 source dvc-venv/bin/activate
 ```
+Activate the new Virtual Env on Windows
+
+```
+cd '\dvc-venv\Scripts'
+.\activate
+```
+or
+
+```
+.\dvc-venv\Scripts\activate
+```
+
 Install python libraries
 
 ```bash
